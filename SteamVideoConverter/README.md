@@ -13,7 +13,7 @@ In windows i use wsl2 to run it.
 
 ## How it works
 
-This scrip takes all of the recordings from the provided steam_recordings/clips folder, navigates to the video/fg_xxxx_xxx_xxx folder, takes the session.md and transforms it to the desired output format and saves to the provided output folder.
+This script takes all of the recordings from the provided steam_recordings/clips folder, navigates to the video/fg_xxxx_xxx_xxx folder, takes the session.md and transforms it to the desired output format and saves to the provided output folder.
 
 As a nice trick it also navigates to steamcharts and extracs from there the name of the game you are recording. In case you didn´t know, the default folder format created by steam is clip_appid_date_timestamp, i take the appid from there.
 
