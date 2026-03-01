@@ -66,7 +66,8 @@ processvideo(){
     ofile="$odir/$appname"_"$time$f"
 
     #ffmpeg command
-    ffmpeg -y -loglevel error -stats -i  "$ifile" "$ofile"
+    #Minor update, added -c copy to maintain same codec, found out the slow way.
+    ffmpeg -y -loglevel error -stats -i  "$ifile" -c copy "$ofile"
 
 }
 
